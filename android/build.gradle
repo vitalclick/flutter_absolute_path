@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.example.flutter_absolute_path' // Use an appropriate namespace
+    
     compileSdkVersion 30
 
     compileOptions {
